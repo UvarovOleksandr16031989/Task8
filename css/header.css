@@ -1,0 +1,47 @@
+
+.section_header{
+	background: url('../images/pic/bg/header.png') no-repeat center;
+	background-size: cover;
+}
+.header_logo{
+	padding: 104px 0 120px 0;
+	text-align: center;
+}
+.header_logo_img{
+	width: auto;
+}
+.button_header{
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.button_header_link{
+	display: inline-block;
+	line-height: 34px;
+	width:  34px;
+	background-color: #36b7b3;
+	border-radius: 49px; 
+	text-align: center;
+}
+.button_header_img{
+	vertical-align: middle;
+	width: auto;
+
+}
+
+.button_down{
+	position: absolute;
+	top: 79px;
+	right: 0;
+	text-align: center;
+}
+.button_down_fix{
+	background-color: #36b7b3;
+	width:  47px;
+	line-height: 52px;	
+	display: inline-block;
+}
+.button_down_img{
+	vertical-align: middle;
+	width: auto;
+}

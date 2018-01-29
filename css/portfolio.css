@@ -1,0 +1,28 @@
+.title-portfolio {
+    padding-top: 73px;
+    padding-bottom: 66px;
+}
+
+.portfolio {
+    font-size: 0;
+   
+}
+
+.gallery img {
+    width: 100%;
+
+}
+
+.gallery {
+  display: inline-block;
+  width: 33.33%;
+
+}
+
+.button-portfolio {
+    padding-top: 30px;
+    text-align: center;
+}
+.button-portfolio_img{
+	width: auto;
+}

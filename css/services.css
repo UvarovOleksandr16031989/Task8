@@ -1,0 +1,41 @@
+.section-services {
+    background: #f8f8f8;
+}
+
+.title-services {
+    padding-top: 74px;
+    padding-bottom:  66px;
+}
+
+.services-list {
+   text-align: center;
+}
+
+.services-list-item {
+    display: inline-block;
+    width: 33%;
+}
+
+.services-list h4 {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 35px;
+    padding-bottom: 114px;
+
+}
+
+.services-icon {
+    line-height: 65px;
+    margin: 0 auto;
+    background: #d55727;
+    width: 64px;
+    border-radius: 32px;
+}
+
+.services-icon-img  {
+    vertical-align: middle;
+    width: auto;
+
+}

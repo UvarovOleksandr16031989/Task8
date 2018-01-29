@@ -1,0 +1,15 @@
+
+
+.section_clients{
+	background-color: #f8f8f8;
+}
+.client_img{
+	display: inline-block;
+	width: 21%;	 
+	margin: 70px 6%;
+	vertical-align: middle;	
+}
+.client_content{
+	text-align: center;
+}
+/* end clients */

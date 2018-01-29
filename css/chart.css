@@ -1,0 +1,13 @@
+.section-chart {
+    background-image: url('../images/pic/bg/bg-chart.png');
+    background-size: cover;
+}
+
+.chart {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 33px 50px 38px 50px;
+    text-align: center;
+}
+.chart_img{
+	 width: 100%;
+}

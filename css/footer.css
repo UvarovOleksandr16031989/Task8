@@ -1,0 +1,30 @@
+
+.section_footer{
+	background-color: rgb(213, 87, 39);
+}
+.footer_content{
+	margin-left: 284px;
+}	
+.footer_img{
+	display: inline-block;
+	padding:13px 74px 13px 0px;
+	vertical-align: middle;
+}
+.botton_bottom{
+	position: fixed;
+	bottom: 59px;
+	right: 0;
+	
+	}
+.botton__bottom_img{
+	vertical-align: middle;
+	width: auto;
+}
+.botton_bottom_item{
+	display: inline-block;
+	background-color: #36b7b3;
+	width:  47px;
+	line-height: 52px;
+	text-align: center;
+	transform: rotate(180deg);
+}
