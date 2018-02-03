@@ -1,1 +1,44 @@
-{\rtf1}
+ /*---------START ABOUT-----------*/
+ @media screen and (max-width: 1024px){
+ .about_img_woman{
+ 	width: 100%;
+ }
+@media screen and (max-width: 840px){
+	.about_box_img{
+		display: none;
+	}
+	.about__contant_text{
+		float: none;
+		width: auto;
+	}
+ }	
+}
+/*-----------END ABOUT----------*/
+/*-----------START CLIENTS----------*/
+@media screen and (max-width: px){
+	
+ }
+ /*---------END CLIENTS-------------*/
+ /*---------START CONTACT-----------*/
+@media screen and (max-width: 950px){
+	.contact_question{
+		padding: 9.5% 9px 0 9px;
+	}
+	.contact_content{
+		margin: 0;
+		padding: 9.5% 9px 0 9px;
+	}
+@media screen and (max-width: 600px){
+	.contact_question, .contact_content{
+		float: none;
+		width: auto;
+	}
+}	
+/*---------END CONTACT------------*/
+/*---------START FOOTER-----------*/
+@media screen and (max-width: 480px){
+	.footer_img{
+
+	}
+
+}

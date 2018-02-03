@@ -3,9 +3,14 @@
 .section_contact{
 	background: url('../images/pic/bg/bg_contact.png') no-repeat center ;
 	background-size: cover; 
+	
+	
 }
 .contact_box{
 	background: rgba(0, 0, 0, 0.5);
+	padding: 7.4% 0 7.4% 0;
+	 
+
 }
 .title_contact{
 	color:  #f8f8f8;
@@ -46,7 +51,7 @@
 	padding: 14px 54px;
 	background-color: rgba(213, 87, 39,0.8);
 	border-radius: 4px;
-	margin: 15px 0 70px 0;
+	margin: 15px 0 0 0;
 	display: inline-block;  
 	color: #f8f8f8;
 	font-size: 18px;
@@ -57,12 +62,14 @@
 	margin: 0 0 0 6.3%;
 	float: right;
 	width: 46%;
-	padding-top: 90px;
+	padding-top: 9.5%;
+	min-width: 210px;
 }
 .contact_question{
 	float: left;
-	padding-top: 90px;
+	padding-top: 9.5%;
 	width: 47.4%;
+	min-width: 210px;
 }
 
 .contact_content_text{

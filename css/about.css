@@ -1,7 +1,9 @@
-
+.section_about{
+	padding: 7.4% 0 14.7% 0;
+}
 .about__contant_text{
 	width:31.9%;
-	padding: 110px 0 140px 0;
+	padding: 11.5% 0 0px 0;
 	vertical-align: top;
 	float: left;
 	color: #000000;
@@ -9,12 +11,13 @@
 	font-weight: 400;
 	line-height: 24px;
 	margin-left: 6.7%;
+	min-width: 210px;
 }
 .about_img_woman{
 	width: 120%;
 }
 .about_contant{
-			
+	text-align: center;		
 }
 .about_box_img{
 	float: right;
