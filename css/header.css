@@ -2,9 +2,10 @@
 .section_header{
 	background: url('../images/pic/bg/header.png') no-repeat center;
 	background-size: cover;
+	padding: 104px 0 70px 0;
 }
 .header_logo{
-	padding: 104px 0 120px 0;
+	padding: 0 0 120px 0;
 	text-align: center;
 }
 .header_logo_img{
@@ -12,7 +13,7 @@
 }
 .button_header{
 	text-align: center;
-	padding-bottom: 70px;
+	
 }
 
 .button_header_link{
