@@ -1,10 +1,6 @@
 .section-services {
     background: #f8f8f8;
-}
-
-.title-services {
-    padding-top: 74px;
-    padding-bottom:  66px;
+    padding: 5.5% 0 8.4%;
 }
 
 .services-list {
@@ -12,18 +8,18 @@
 }
 
 .services-list-item {
+    padding-top: 7%;
     display: inline-block;
     width: 33%;
+    min-width: 200px;
 }
 
-.services-list h4 {
+.services_description {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    padding-top: 35px;
-    padding-bottom: 114px;
-
+    padding-top: 11.2%;
 }
 
 .services-icon {

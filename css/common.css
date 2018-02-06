@@ -1,11 +1,10 @@
 .container {
-    width: 950px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
 .title {
     text-align: center;
-    padding-top: 70px;
     color: #000000;
     font-size: 40px;
     font-weight: 400;
@@ -18,7 +17,7 @@
     display: block;
     width: 42px;
     height: 2px;
-    margin: 32px auto 0;
+    margin: 3.4% auto 0;
     background: #d55727;
 }
 .clearfix::after,
