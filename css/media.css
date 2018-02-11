@@ -1,3 +1,4 @@
+
  /*---------START ABOUT-----------*/
  @media screen and (max-width: 1024px){
  .about_img_woman{
@@ -41,4 +42,31 @@
 
 	}
 
+@media screen and (max-width: 840px) {
+    .gallery {
+        display: inline-block;
+        width: 50%;
+    }
 }
+
+@media screen and (max-width: 497px) {
+    .gallery {
+        width: 100%;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    .gallery:nth-child(2) {
+        display: block;
+    }
+
+    #check:checked~.gallery {
+        display: block;
+    }
+
+    #check:checked~.button-portfolio {
+        transform: rotate(180deg);
+        padding: 0 0 2.2%;
+    }
