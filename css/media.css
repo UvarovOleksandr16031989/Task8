@@ -49,7 +49,7 @@
 
 	}
 
-
+/*--------START PORTFOLIO----------*/
 @media screen and (max-width: 497px) {
     .gallery {
         width: 100%;
@@ -71,3 +71,4 @@
         transform: rotate(180deg);
         padding: 0 0 2.2%;
     }
+/*-----------END PORTFOLIO------------*/
