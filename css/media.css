@@ -37,17 +37,18 @@
 }	
 /*---------END CONTACT------------*/
 /*---------START FOOTER-----------*/
-@media screen and (max-width: 480px){
-	.footer_img{
-
-	}
-
 @media screen and (max-width: 840px) {
     .gallery {
         display: inline-block;
         width: 50%;
     }
 }
+
+@media screen and (max-width: 480px){
+	.footer_img{
+
+	}
+
 
 @media screen and (max-width: 497px) {
     .gallery {
