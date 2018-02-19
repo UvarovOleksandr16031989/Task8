@@ -21,6 +21,7 @@
     margin: 3.4% auto 0;
     background: #d55727;
 }
+
 .clearfix::after,
 .contact_item::after,  
 .clearfix 
@@ -30,18 +31,21 @@
     clear: both;
     overflow: hidden;
 }
+
 textarea, 
 textarea:active, 
 textarea:focus {
     outline: none;
     resize: none;
 }
+
 button, 
 button:active, 
 button:focus{
    outline: none;
    border: none; 
 }
+
 img{
    width:100%;
 }

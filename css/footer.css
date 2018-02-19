@@ -1,25 +1,29 @@
-
 .section_footer{
 	background-color: rgb(213, 87, 39);
 }
+
 .footer_content{
 	text-align: center;
-}	
+}
+
 .footer_img{
 	display: inline-block;
-	padding:13px 36px 13px ;
+	padding:13px 34px 13px ;
 	vertical-align: middle;
 }
+
 .botton_bottom{
 	position: fixed;
 	bottom: 59px;
 	right: 0;
 	
-	}
+}
+
 .botton__bottom_img{
 	vertical-align: middle;
 	width: auto;
 }
+
 .botton_bottom_item{
 	display: inline-block;
 	background-color: #36b7b3;

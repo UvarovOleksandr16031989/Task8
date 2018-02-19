@@ -1,9 +1,19 @@
-
- /*---------START ABOUT-----------*/
+ 
  @media screen and (max-width: 1024px){
  .about_img_woman{
  	width: 100%;
  }
+
+ @media screen and (max-width: 950px){
+	.contact_question{
+		padding: 9.5% 9px 0 9px;
+	}
+	.contact_content{
+		margin: 0;
+		padding: 9.5% 9px 0 9px;
+	}
+}
+
 @media screen and (max-width: 840px){
 	.about_box_img{
 		display: none;
@@ -12,52 +22,53 @@
 		float: none;
 		width: auto;
 	}
- }	
-}
-/*-----------END ABOUT----------*/
-/*-----------START CLIENTS----------*/
-@media screen and (max-width: px){
-	
- }
- /*---------END CLIENTS-------------*/
- /*---------START CONTACT-----------*/
-@media screen and (max-width: 950px){
-	.contact_question{
-		padding: 9.5% 9px 0 9px;
-	}
-	.contact_content{
-		margin: 0;
-		padding: 9.5% 9px 0 9px;
-	}
-@media screen and (max-width: 600px){
-	.contact_question, .contact_content{
-		float: none;
-		width: auto;
-	}
-}	
-/*---------END CONTACT------------*/
-/*---------START FOOTER-----------*/
-
-
-@media screen and (max-width: 480px){
-	.botton__bottom_img{
-		width: 20px;
-			
-	}
-	.botton_bottom_item{
-		width:  40px;
-		line-height: 42px;
-	}
-
-/*--------START PORTFOLIO----------*/
-@media screen and (max-width: 840px) {
-    .gallery {
+	.gallery {
         display: inline-block;
         width: 50%;
     }
 }
-@media screen and (max-width: 497px) {
 
+@media screen and (max-width: 640px){
+	.section_menu{
+		position: absolute; 
+		visibility: hidden;
+		top: 0;
+		right: 0;
+		left: 0;
+		background: rgba(54, 183, 179, .8);
+		transition: all .5s ease;
+		opacity: 0;
+
+	}
+	.menu_content_button{
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+	
+	#check_head:checked ~ .section_menu{
+		
+		visibility: visible;
+		opacity: 1;
+		
+	}
+	
+	#check_head:checked ~ .section_header>.container>.button_header{
+		transform: rotate(180deg);		
+	}
+}
+
+@media screen and (max-width: 600px){
+	.contact_question, 
+	.contact_content{
+		float: none;
+		width: auto;
+	}
+	.menu_content_button{
+		line-height: 50px;
+	}
+}
+@media screen and (max-width: 480px) {
     .gallery {
         width: 100%;
     }
@@ -78,5 +89,15 @@
         transform: rotate(180deg);
         padding: 0 0 2.2%;
     }
-
-/*-----------END PORTFOLIO------------*/
+    .botton__bottom_img,
+    .button_down_img{
+		width: 20px;
+			
+	}
+	.botton_bottom_item,
+	.button_down_fix{
+		width:  40px;
+		line-height: 42px;
+	}
+	
+}	

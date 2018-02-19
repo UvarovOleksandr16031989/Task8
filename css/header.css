@@ -1,19 +1,19 @@
-
 .section_header{
 	background: url('../images/pic/bg/header.png') no-repeat center;
 	background-size: cover;
-	padding: 104px 0 70px 0;
+	padding: 11% 0 7.4% 0;
 }
+
 .header_logo{
 	padding: 0 0 120px 0;
-	text-align: center;
+	margin: 0 auto;
+	width: 41.4%;
+	min-width: 210px;
 }
-.header_logo_img{
-	width: auto;
-}
+
 .button_header{
 	text-align: center;
-	
+	transition: all 0.5s ease;
 }
 
 .button_header_link{
@@ -23,11 +23,12 @@
 	background-color: #36b7b3;
 	border-radius: 49px; 
 	text-align: center;
+	cursor: pointer;
 }
+
 .button_header_img{
 	vertical-align: middle;
 	width: auto;
-
 }
 
 .button_down{
@@ -36,12 +37,14 @@
 	right: 0;
 	text-align: center;
 }
+
 .button_down_fix{
 	background-color: #36b7b3;
 	width:  47px;
 	line-height: 52px;	
 	display: inline-block;
 }
+
 .button_down_img{
 	vertical-align: middle;
 	width: auto;

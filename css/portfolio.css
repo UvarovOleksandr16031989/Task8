@@ -19,7 +19,7 @@
 
 .button-portfolio {
     display: inline-block;
-
+    cursor: pointer;
     padding-top: 2.2%;
 }
 

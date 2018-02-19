@@ -1,17 +1,16 @@
-
-
 .section_clients{
 	background-color: #f8f8f8;
 	padding: 7.4% 0 0 0;
 }
+
 .client_img{
 	display: inline-block;
 	width: 21%;	 
 	margin: 7.3% 5.4%;
 	vertical-align: middle;
-	min-width: 210px;	
+	min-width: 200px;	
 }
+
 .client_content{
 	text-align: center;
 }
-/* end clients */

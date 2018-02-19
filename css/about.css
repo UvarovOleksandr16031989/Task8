@@ -1,6 +1,7 @@
 .section_about{
 	padding: 7.4% 0 14.7% 0;
 }
+
 .about__contant_text{
 	width:31.9%;
 	padding: 11.5% 0 0px 0;
@@ -13,12 +14,15 @@
 	margin-left: 6.7%;
 	min-width: 210px;
 }
+
 .about_img_woman{
 	width: 120%;
 }
+
 .about_contant{
 	text-align: center;		
 }
+
 .about_box_img{
 	float: right;
     width: 54.7%;
@@ -27,9 +31,7 @@
     top: -90px;
     z-index: -1;
 }
-.about_img{
 
-}
 .clearfix,
 .about_contant::after{
 	content: '';
