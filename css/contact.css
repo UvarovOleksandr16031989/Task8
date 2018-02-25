@@ -19,6 +19,9 @@
 	text-decoration: none;
 	color: white;
 }
+.contact_content_link:hover{
+	text-decoration: underline;
+}
 
 .contact_question_form_massage{
 	padding: 10px 0 176px 0;
@@ -33,7 +36,8 @@
 	border: 1px solid #d55727;
 	color: #f8f8f8; 
 	background-color: rgba(0, 0, 0, 0.5);
-	line-height: 14px
+	line-height: 14px;
+	padding-left: 5px ;
 }
 
 .contact_question_name::placeholder,
@@ -54,6 +58,10 @@
 	font-size: 18px;
 	text-align: center;
 	cursor: pointer;
+}
+
+.contact_batton:hover {
+	background-color: transparent;
 }
 
 .contact_content{

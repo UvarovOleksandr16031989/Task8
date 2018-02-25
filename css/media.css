@@ -6,7 +6,7 @@
 
  @media screen and (max-width: 950px){
 	.contact_question{
-		padding: 9.5% 9px 0 9px;
+		padding: 9.5% 0 0 0;
 	}
 	.contact_content{
 		margin: 0;
@@ -21,6 +21,7 @@
 	.about__contant_text{
 		float: none;
 		width: auto;
+		margin: 0;
 	}
 	.gallery {
         display: inline-block;
