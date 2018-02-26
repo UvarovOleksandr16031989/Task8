@@ -24,7 +24,7 @@
 }
 
 .contact_question_form_massage{
-	padding: 10px 0 176px 0;
+	padding: 20px 0 176px 0;
 	margin-top: 20px;
 	font-family: Arial;
 
@@ -37,14 +37,16 @@
 	color: #f8f8f8; 
 	background-color: rgba(0, 0, 0, 0.5);
 	line-height: 14px;
-	padding-left: 5px ;
+	overflow: hidden;
+	padding-left: 10px;
+	margin-left: -5px;
 }
 
 .contact_question_name::placeholder,
 .contact_question_email::placeholder,
 .contact_question_form_massage::placeholder{
 	color: #f8f8f8;
-	padding: 10px 0 0 10px;
+	
 }
 
 .contact_batton{
@@ -61,7 +63,7 @@
 }
 
 .contact_batton:hover {
-	background-color: transparent;
+	background-color: rgba(213, 87, 39, 1);
 }
 
 .contact_content{
