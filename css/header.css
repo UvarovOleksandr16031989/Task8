@@ -26,6 +26,10 @@
 	cursor: pointer;
 }
 
+.button_header_link:hover{
+	 box-shadow: 0 0 10px black;
+}
+
 .button_header_img{
 	vertical-align: middle;
 	width: auto;
@@ -43,6 +47,9 @@
 	width:  47px;
 	line-height: 52px;	
 	display: inline-block;
+}
+.button_down_fix:hover{
+	box-shadow: 0 0 10px black;
 }
 
 .button_down_img{

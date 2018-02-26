@@ -23,6 +23,11 @@
     padding-top: 2.2%;
 }
 
+.button-portfolio_img:hover{
+    background-color: rgba( 0, 0, 0, .1);
+    box-shadow: 0 0 10px black;
+}
+
 #check {
 	display: block;
 	margin: 0;

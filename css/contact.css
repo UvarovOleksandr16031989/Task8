@@ -45,7 +45,7 @@
 .contact_question_name::placeholder,
 .contact_question_email::placeholder,
 .contact_question_form_massage::placeholder{
-	color: #f8f8f8;
+	color: rgba(255,255,255, .5);
 	
 }
 

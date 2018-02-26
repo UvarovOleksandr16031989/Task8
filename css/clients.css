@@ -11,6 +11,10 @@
 	min-width: 200px;	
 }
 
+.client_img:hover{
+	box-shadow: 0 0 10px black;
+}
+
 .client_content{
 	text-align: center;
 }

@@ -6,7 +6,7 @@
 	text-align: center;
 }
 
-.footer_img{
+.footer_contact{
 	display: inline-block;
 	padding:13px 34px 13px ;
 	vertical-align: middle;
@@ -31,4 +31,12 @@
 	line-height: 52px;
 	text-align: center;
 	transform: rotate(180deg);
+}
+
+.botton_bottom_item:hover{
+	box-shadow: 0 0 10px black;
+}
+
+.footer__contact--img:hover{
+	box-shadow: 0 0 10px black;
 }
